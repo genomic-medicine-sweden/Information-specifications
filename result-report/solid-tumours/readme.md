@@ -1,2 +1,4 @@
 Files in different formats describing an openEHR-based infromation specification (template) describing a result report for solid tumours. 
 It is based om a modofied version of HiGHmed's corresponding template https://ckm.highmed.org/ckm/templates/1246.169.236
+
+For details, see chapter 4 and appaendix D of https://docs.google.com/document/d/1ltD4CYRVKFZIZ_RYd7CittBjStpwR5Vd/edit?usp=sharing&ouid=112660550613841635682&rtpof=true&sd=true
