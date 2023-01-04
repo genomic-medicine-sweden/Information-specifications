@@ -1,0 +1,207 @@
+{
+    "ctx": {
+        "language": "en",
+        "territory": "se",
+        "composer_name": "Doktor Dängroth"
+    },
+    "report_genomic_investigation_molecular_pathology": [
+        {
+            "context": [
+                {
+                    "report_id": [
+                        "123456"
+                    ],
+                    "status": [
+                        "Final"
+                    ],
+                    "start_time": [
+                        "2023-01-03T16:32:39"
+                    ],
+                    "setting": [
+                        {
+                            "|code": "232",
+                            "|value": "secondary medical care"
+                        }
+                    ]
+                }
+            ],
+            "laboratory_test_result": [
+                {
+                    "test_name": [
+                        "Tumörutredning ABCD"
+                    ],
+                    "specimen": [
+                        {
+                            "specimen_type": [
+                                "Tumour"
+                            ],
+                            "laboratory_specimen_identifier": [
+                                {
+                                    "|id": "987654-25"
+                                }
+                            ],
+                            "date_time_received": [
+                                "2023-01-02T11:26"
+                            ],
+                            "collection_date_time": [
+                                "2023-01-02T09:33"
+                            ],
+                            "parent_specimen_identifier": [
+                                {
+                                    "|id": "987654"
+                                }
+                            ],
+                            "comment": [
+                                "comments go here.."
+                            ]
+                        }
+                    ],
+                    "overall_test_status": [
+                        {
+                            "|code": "at0040"
+                        }
+                    ],
+                    "overall_test_status_timestamp": [
+                        "2023-01-03T15:56"
+                    ],
+                    "diagnostic_service_category": [
+                        {
+                            "|code": "1236877003"
+                        }
+                    ],
+                    "sequencing_result": [
+                        {
+                            "analysis-id_labinternal_identifier": [
+                                "analysis-id_labinternal_identifier"
+                            ],
+                            "general_sequencing_result_parameter": [
+                                {
+                                    "sequenced_tissue_type": [
+                                        {
+                                            "|code": "at0003"
+                                        }
+                                    ],
+                                    "tumor_cell_content_pathologic_histologic": [
+                                        {
+                                            "|unit": "%"
+                                        }
+                                    ],
+                                    "tumor_cell_content_bioinformatic": [
+                                        {
+                                            "|unit": "%"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "sequencing_assay": [
+                                {
+                                    "sequencing_technology": [
+                                        {
+                                            "|code": "at0012"
+                                        }
+                                    ],
+                                    "kit_name": [
+                                        {
+                                            "|code": "at0021"
+                                        }
+                                    ],
+                                    "nucleic_acid": [
+                                        {
+                                            "|code": "at0022"
+                                        }
+                                    ],
+                                    "tested_genes": [
+                                        {
+                                            "gene_symbol": [
+                                                "gene_symbol"
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ],
+                            "genomic_variant_result": [
+                                {
+                                    "database_variant_identification": [
+                                        {
+                                            "source_name": [
+                                                "source_name"
+                                            ]
+                                        }
+                                    ],
+                                    "genomic_deletion-insertion_variant": [
+                                        {
+                                            "inserted_sequence": [
+                                                "inserted_sequence"
+                                            ]
+                                        }
+                                    ],
+                                    "genomic_substitution_variant": [
+                                        {
+                                            "reference_nucleotide": [
+                                                "reference_nucleotide"
+                                            ],
+                                            "new_nucleotide": [
+                                                "new_nucleotide"
+                                            ]
+                                        }
+                                    ],
+                                    "simple_genetic_variant": [
+                                        {
+                                            "chromosome_label": [
+                                                {
+                                                    "|code": "at0013",
+                                                    "|other": "chromosome_label other"
+                                                }
+                                            ],
+                                            "alternate_nucleotide_sequence": [
+                                                "alternate_nucleotide_sequence"
+                                            ],
+                                            "reference_nucleotide_sequence": [
+                                                "reference_nucleotide_sequence"
+                                            ]
+                                        }
+                                    ],
+                                    "transcript": [
+                                        {
+                                            "functional_impact": [
+                                                {
+                                                    "impact": [
+                                                        "impact"
+                                                    ]
+                                                }
+                                            ],
+                                            "gene": [
+                                                {
+                                                    "gen-name_hgnc": [
+                                                        "gen-name_hgnc"
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ],
+                                    "population_allele_frequency_details": [
+                                        {
+                                            "population_allele_frequency": [
+                                                {
+                                                    "|unit": "1"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "time": [
+                        "2023-01-04T01:27:35"
+                    ]
+                }
+            ],
+            "category": [
+                {
+                    "|code": "433"
+                }
+            ]
+        }
+    ]
+}
