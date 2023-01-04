@@ -1,1 +1,411 @@
-<?xml version='1.0' encoding='UTF-8'?><Report_Genomic_Investigation_Molecular_Pathology xmlns="http://schemas.oceanehr.com/templates" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rm="http://schemas.openehr.org/v1" template_id="Report Genomic Investigation Molecular Pathology"><name><value>Report Genomic Investigation Molecular Pathology</value></name><language><terminology_id><value>ISO_639-1</value></terminology_id><code_string>en</code_string></language><territory><terminology_id><value>ISO_3166-1</value></terminology_id><code_string>se</code_string></territory><category><value>event</value><defining_code><terminology_id><value>openehr</value></terminology_id><code_string>433</code_string></defining_code></category><composer xsi:type="rm:PARTY_IDENTIFIED"><rm:name>Doktor Dängroth</rm:name></composer><context><start_time><rm:value>2023-01-03T16:32:39+01:00</rm:value></start_time><setting><rm:value>secondary medical care</rm:value><rm:defining_code><rm:terminology_id><rm:value>external</rm:value></rm:terminology_id><rm:code_string>232</rm:code_string></rm:defining_code></setting><Report_ID><name><value>Report ID</value></name><value><rm:value>123456</rm:value></value></Report_ID><Status><name><value>Status</value></name><value><value>Final</value></value></Status></context><Laboratory_test_result><name><value>Laboratory test result</value></name><language><terminology_id><value>ISO_639-1</value></terminology_id><code_string>en</code_string></language><encoding><terminology_id><value>IANA_character-sets</value></terminology_id><code_string>UTF-8</code_string></encoding><subject xsi:type="rm:PARTY_SELF"/><data><origin><rm:value>2023-01-04T01:27:35+01:00</rm:value></origin><Any_event_as_Point_Event><name><value>Any event</value></name><time><rm:value>2023-01-04T01:27:35+01:00</rm:value></time><data><Test_name><name><value>Test name</value></name><value><rm:value>Tumörutredning ABCD</rm:value></value></Test_name><Specimen><name><value>Specimen</value></name><Specimen_type><name><value>Specimen type</value></name><value><value>Tumour</value></value></Specimen_type><Laboratory_specimen_identifier><name><value>Laboratory specimen identifier</value></name><value><rm:id>987654-25</rm:id></value></Laboratory_specimen_identifier><Date_fslash_time_received><name><value>Date/time received</value></name><value><rm:value>2023-01-02T11:26</rm:value></value></Date_fslash_time_received><Collection_date_fslash_time><name><value>Collection date/time</value></name><value><rm:value>2023-01-02T09:33</rm:value></value></Collection_date_fslash_time><Parent_specimen_identifier><name><value>Parent specimen identifier</value></name><value><rm:id>987654</rm:id></value></Parent_specimen_identifier><Comment><name><value>Comment</value></name><value><rm:value>comments go here..</rm:value></value></Comment></Specimen><Overall_test_status valueType="DV_CODED_TEXT"><name><value>Overall test status</value></name><coded_text_value><value>Amended</value><defining_code><terminology_id><value>local</value></terminology_id><code_string>at0040</code_string></defining_code></coded_text_value></Overall_test_status><Overall_test_status_timestamp><name><value>Overall test status timestamp</value></name><value><rm:value>2023-01-03T15:56</rm:value></value></Overall_test_status_timestamp><Diagnostic_service_category><name><value>Diagnostic service category</value></name><value><value>Genetic pathology</value><defining_code><terminology_id><value>http://snomed.info/id/</value></terminology_id><code_string>1236877003</code_string></defining_code></value></Diagnostic_service_category><Sequencing_result><name><value>Sequencing result</value></name><Analysis_-_ID_fslash_Labinternal_Identifier><name><value>Analysis-ID/Labinternal Identifier</value></name><value><rm:value>analysis-id_labinternal_identifier</rm:value></value></Analysis_-_ID_fslash_Labinternal_Identifier><General_sequencing_result_parameter><name><value>General sequencing result parameter</value></name><Sequenced_tissue_type valueType="DV_CODED_TEXT"><name><value>Sequenced tissue type</value></name><coded_text_value><value>Tumor tissue</value><defining_code><terminology_id><value>local</value></terminology_id><code_string>at0003</code_string></defining_code></coded_text_value></Sequenced_tissue_type></General_sequencing_result_parameter><Sequencing_assay><name><value>Sequencing assay</value></name><Sequencing_technology valueType="DV_CODED_TEXT"><name><value>Sequencing technology</value></name><coded_text_value><value>Panel based sequencing</value><defining_code><terminology_id><value>local</value></terminology_id><code_string>at0012</code_string></defining_code></coded_text_value></Sequencing_technology><Kit_name valueType="DV_CODED_TEXT"><name><value>Kit name</value></name><coded_text_value><value>Oncomine Comprehensive Panel V3</value><defining_code><terminology_id><value>local</value></terminology_id><code_string>at0021</code_string></defining_code></coded_text_value></Kit_name><Nucleic_acid valueType="DV_CODED_TEXT"><name><value>Nucleic acid</value></name><coded_text_value><value>DNA</value><defining_code><terminology_id><value>local</value></terminology_id><code_string>at0022</code_string></defining_code></coded_text_value></Nucleic_acid><Tested_Genes><name><value>Tested Genes</value></name><Gene_symbol><name><value>Gene symbol</value></name><value><rm:value>gene_symbol</rm:value></value></Gene_symbol></Tested_Genes></Sequencing_assay><Genomic_variant_result><name><value>Genomic variant result</value></name><Database_variant_identification><name><value>Database variant identification</value></name><Source_Name><name><value>Source Name</value></name><value><rm:value>source_name</rm:value></value></Source_Name></Database_variant_identification><Genomic_deletion_-_insertion_variant><name><value>Genomic deletion-insertion variant</value></name><Inserted_sequence><name><value>Inserted sequence</value></name><value><rm:value>inserted_sequence</rm:value></value></Inserted_sequence></Genomic_deletion_-_insertion_variant><Genomic_substitution_variant><name><value>Genomic substitution variant</value></name><Reference_nucleotide><name><value>Reference nucleotide</value></name><value><rm:value>reference_nucleotide</rm:value></value></Reference_nucleotide><New_nucleotide><name><value>New nucleotide</value></name><value><rm:value>new_nucleotide</rm:value></value></New_nucleotide></Genomic_substitution_variant><Simple_genetic_variant><name><value>Simple genetic variant</value></name><Chromosome_label valueType="DV_CODED_TEXT"><name><value>Chromosome label</value></name><coded_text_value><value>Chromosome 1</value><defining_code><terminology_id><value>local</value></terminology_id><code_string>at0013</code_string></defining_code></coded_text_value></Chromosome_label><Chromosome_label valueType="DV_TEXT"><name><value>Chromosome label #2</value></name><text_value><rm:value>chromosome_label other</rm:value></text_value></Chromosome_label><Alternate_nucleotide_sequence><name><value>Alternate nucleotide sequence</value></name><value><rm:value>alternate_nucleotide_sequence</rm:value></value></Alternate_nucleotide_sequence><Reference_nucleotide_sequence><name><value>Reference nucleotide sequence</value></name><value><rm:value>reference_nucleotide_sequence</rm:value></value></Reference_nucleotide_sequence></Simple_genetic_variant><Transcript><name><value>Transcript</value></name><Functional_impact><name><value>Functional impact</value></name><Impact><name><value>Impact</value></name><value><rm:value>impact</rm:value></value></Impact></Functional_impact><Gene><name><value>Gene</value></name><Gen_-_Name__openBrkt_HGNC_closeBrkt_><name><value>Gen-Name (HGNC)</value></name><value><rm:value>gen-name_hgnc</rm:value></value></Gen_-_Name__openBrkt_HGNC_closeBrkt_></Gene></Transcript></Genomic_variant_result></Sequencing_result></data><state/></Any_event_as_Point_Event></data></Laboratory_test_result></Report_Genomic_Investigation_Molecular_Pathology>
+<?xml version='1.0' encoding='UTF-8'?>
+<Report_Genomic_Investigation_Molecular_Pathology xmlns="http://schemas.oceanehr.com/templates"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:rm="http://schemas.openehr.org/v1" template_id="Report Genomic Investigation Molecular Pathology">
+    <name>
+        <value>Report Genomic Investigation Molecular Pathology</value>
+    </name>
+    <language>
+        <terminology_id>
+            <value>ISO_639-1</value>
+        </terminology_id>
+        <code_string>en</code_string>
+    </language>
+    <territory>
+        <terminology_id>
+            <value>ISO_3166-1</value>
+        </terminology_id>
+        <code_string>se</code_string>
+    </territory>
+    <category>
+        <value>event</value>
+        <defining_code>
+            <terminology_id>
+                <value>openehr</value>
+            </terminology_id>
+            <code_string>433</code_string>
+        </defining_code>
+    </category>
+    <composer xsi:type="rm:PARTY_IDENTIFIED">
+        <rm:name>Doktor Dängroth</rm:name>
+    </composer>
+    <context>
+        <start_time>
+            <rm:value>2023-01-03T16:32:39+01:00</rm:value>
+        </start_time>
+        <setting>
+            <rm:value>secondary medical care</rm:value>
+            <rm:defining_code>
+                <rm:terminology_id>
+                    <rm:value>external</rm:value>
+                </rm:terminology_id>
+                <rm:code_string>232</rm:code_string>
+            </rm:defining_code>
+        </setting>
+        <Report_ID>
+            <name>
+                <value>Report ID</value>
+            </name>
+            <value>
+                <rm:value>123456</rm:value>
+            </value>
+        </Report_ID>
+        <Status>
+            <name>
+                <value>Status</value>
+            </name>
+            <value>
+                <value>Final</value>
+            </value>
+        </Status>
+    </context>
+    <Laboratory_test_result>
+        <name>
+            <value>Laboratory test result</value>
+        </name>
+        <language>
+            <terminology_id>
+                <value>ISO_639-1</value>
+            </terminology_id>
+            <code_string>en</code_string>
+        </language>
+        <encoding>
+            <terminology_id>
+                <value>IANA_character-sets</value>
+            </terminology_id>
+            <code_string>UTF-8</code_string>
+        </encoding>
+        <subject xsi:type="rm:PARTY_SELF"/>
+        <data>
+            <origin>
+                <rm:value>2023-01-04T01:27:35+01:00</rm:value>
+            </origin>
+            <Any_event_as_Point_Event>
+                <name>
+                    <value>Any event</value>
+                </name>
+                <time>
+                    <rm:value>2023-01-04T01:27:35+01:00</rm:value>
+                </time>
+                <data>
+                    <Test_name>
+                        <name>
+                            <value>Test name</value>
+                        </name>
+                        <value>
+                            <rm:value>Tumörutredning ABCD</rm:value>
+                        </value>
+                    </Test_name>
+                    <Specimen>
+                        <name>
+                            <value>Specimen</value>
+                        </name>
+                        <Specimen_type>
+                            <name>
+                                <value>Specimen type</value>
+                            </name>
+                            <value>
+                                <value>Tumour</value>
+                            </value>
+                        </Specimen_type>
+                        <Laboratory_specimen_identifier>
+                            <name>
+                                <value>Laboratory specimen identifier</value>
+                            </name>
+                            <value>
+                                <rm:id>987654-25</rm:id>
+                            </value>
+                        </Laboratory_specimen_identifier>
+                        <Date_fslash_time_received>
+                            <name>
+                                <value>Date/time received</value>
+                            </name>
+                            <value>
+                                <rm:value>2023-01-02T11:26</rm:value>
+                            </value>
+                        </Date_fslash_time_received>
+                        <Collection_date_fslash_time>
+                            <name>
+                                <value>Collection date/time</value>
+                            </name>
+                            <value>
+                                <rm:value>2023-01-02T09:33</rm:value>
+                            </value>
+                        </Collection_date_fslash_time>
+                        <Parent_specimen_identifier>
+                            <name>
+                                <value>Parent specimen identifier</value>
+                            </name>
+                            <value>
+                                <rm:id>987654</rm:id>
+                            </value>
+                        </Parent_specimen_identifier>
+                        <Comment>
+                            <name>
+                                <value>Comment</value>
+                            </name>
+                            <value>
+                                <rm:value>comments go here..</rm:value>
+                            </value>
+                        </Comment>
+                    </Specimen>
+                    <Overall_test_status valueType="DV_CODED_TEXT">
+                        <name>
+                            <value>Overall test status</value>
+                        </name>
+                        <coded_text_value>
+                            <value>Amended</value>
+                            <defining_code>
+                                <terminology_id>
+                                    <value>local</value>
+                                </terminology_id>
+                                <code_string>at0040</code_string>
+                            </defining_code>
+                        </coded_text_value>
+                    </Overall_test_status>
+                    <Overall_test_status_timestamp>
+                        <name>
+                            <value>Overall test status timestamp</value>
+                        </name>
+                        <value>
+                            <rm:value>2023-01-03T15:56</rm:value>
+                        </value>
+                    </Overall_test_status_timestamp>
+                    <Diagnostic_service_category>
+                        <name>
+                            <value>Diagnostic service category</value>
+                        </name>
+                        <value>
+                            <value>Genetic pathology</value>
+                            <defining_code>
+                                <terminology_id>
+                                    <value>http://snomed.info/id/</value>
+                                </terminology_id>
+                                <code_string>1236877003</code_string>
+                            </defining_code>
+                        </value>
+                    </Diagnostic_service_category>
+                    <Sequencing_result>
+                        <name>
+                            <value>Sequencing result</value>
+                        </name>
+                        <Analysis_-_ID_fslash_Labinternal_Identifier>
+                            <name>
+                                <value>Analysis-ID/Labinternal Identifier</value>
+                            </name>
+                            <value>
+                                <rm:value>analysis-id_labinternal_identifier</rm:value>
+                            </value>
+                        </Analysis_-_ID_fslash_Labinternal_Identifier>
+                        <General_sequencing_result_parameter>
+                            <name>
+                                <value>General sequencing result parameter</value>
+                            </name>
+                            <Sequenced_tissue_type valueType="DV_CODED_TEXT">
+                                <name>
+                                    <value>Sequenced tissue type</value>
+                                </name>
+                                <coded_text_value>
+                                    <value>Tumor tissue</value>
+                                    <defining_code>
+                                        <terminology_id>
+                                            <value>local</value>
+                                        </terminology_id>
+                                        <code_string>at0003</code_string>
+                                    </defining_code>
+                                </coded_text_value>
+                            </Sequenced_tissue_type>
+                        </General_sequencing_result_parameter>
+                        <Sequencing_assay>
+                            <name>
+                                <value>Sequencing assay</value>
+                            </name>
+                            <Sequencing_technology valueType="DV_CODED_TEXT">
+                                <name>
+                                    <value>Sequencing technology</value>
+                                </name>
+                                <coded_text_value>
+                                    <value>Panel based sequencing</value>
+                                    <defining_code>
+                                        <terminology_id>
+                                            <value>local</value>
+                                        </terminology_id>
+                                        <code_string>at0012</code_string>
+                                    </defining_code>
+                                </coded_text_value>
+                            </Sequencing_technology>
+                            <Kit_name valueType="DV_CODED_TEXT">
+                                <name>
+                                    <value>Kit name</value>
+                                </name>
+                                <coded_text_value>
+                                    <value>Oncomine Comprehensive Panel V3</value>
+                                    <defining_code>
+                                        <terminology_id>
+                                            <value>local</value>
+                                        </terminology_id>
+                                        <code_string>at0021</code_string>
+                                    </defining_code>
+                                </coded_text_value>
+                            </Kit_name>
+                            <Nucleic_acid valueType="DV_CODED_TEXT">
+                                <name>
+                                    <value>Nucleic acid</value>
+                                </name>
+                                <coded_text_value>
+                                    <value>DNA</value>
+                                    <defining_code>
+                                        <terminology_id>
+                                            <value>local</value>
+                                        </terminology_id>
+                                        <code_string>at0022</code_string>
+                                    </defining_code>
+                                </coded_text_value>
+                            </Nucleic_acid>
+                            <Tested_Genes>
+                                <name>
+                                    <value>Tested Genes</value>
+                                </name>
+                                <Gene_symbol>
+                                    <name>
+                                        <value>Gene symbol</value>
+                                    </name>
+                                    <value>
+                                        <rm:value>gene_symbol</rm:value>
+                                    </value>
+                                </Gene_symbol>
+                            </Tested_Genes>
+                        </Sequencing_assay>
+                        <Genomic_variant_result>
+                            <name>
+                                <value>Genomic variant result</value>
+                            </name>
+                            <Database_variant_identification>
+                                <name>
+                                    <value>Database variant identification</value>
+                                </name>
+                                <Source_Name>
+                                    <name>
+                                        <value>Source Name</value>
+                                    </name>
+                                    <value>
+                                        <rm:value>source_name</rm:value>
+                                    </value>
+                                </Source_Name>
+                            </Database_variant_identification>
+                            <Genomic_deletion_-_insertion_variant>
+                                <name>
+                                    <value>Genomic deletion-insertion variant</value>
+                                </name>
+                                <Inserted_sequence>
+                                    <name>
+                                        <value>Inserted sequence</value>
+                                    </name>
+                                    <value>
+                                        <rm:value>inserted_sequence</rm:value>
+                                    </value>
+                                </Inserted_sequence>
+                            </Genomic_deletion_-_insertion_variant>
+                            <Genomic_substitution_variant>
+                                <name>
+                                    <value>Genomic substitution variant</value>
+                                </name>
+                                <Reference_nucleotide>
+                                    <name>
+                                        <value>Reference nucleotide</value>
+                                    </name>
+                                    <value>
+                                        <rm:value>reference_nucleotide</rm:value>
+                                    </value>
+                                </Reference_nucleotide>
+                                <New_nucleotide>
+                                    <name>
+                                        <value>New nucleotide</value>
+                                    </name>
+                                    <value>
+                                        <rm:value>new_nucleotide</rm:value>
+                                    </value>
+                                </New_nucleotide>
+                            </Genomic_substitution_variant>
+                            <Simple_genetic_variant>
+                                <name>
+                                    <value>Simple genetic variant</value>
+                                </name>
+                                <Chromosome_label valueType="DV_CODED_TEXT">
+                                    <name>
+                                        <value>Chromosome label</value>
+                                    </name>
+                                    <coded_text_value>
+                                        <value>Chromosome 1</value>
+                                        <defining_code>
+                                            <terminology_id>
+                                                <value>local</value>
+                                            </terminology_id>
+                                            <code_string>at0013</code_string>
+                                        </defining_code>
+                                    </coded_text_value>
+                                </Chromosome_label>
+                                <Chromosome_label valueType="DV_TEXT">
+                                    <name>
+                                        <value>Chromosome label #2</value>
+                                    </name>
+                                    <text_value>
+                                        <rm:value>chromosome_label other</rm:value>
+                                    </text_value>
+                                </Chromosome_label>
+                                <Alternate_nucleotide_sequence>
+                                    <name>
+                                        <value>Alternate nucleotide sequence</value>
+                                    </name>
+                                    <value>
+                                        <rm:value>alternate_nucleotide_sequence</rm:value>
+                                    </value>
+                                </Alternate_nucleotide_sequence>
+                                <Reference_nucleotide_sequence>
+                                    <name>
+                                        <value>Reference nucleotide sequence</value>
+                                    </name>
+                                    <value>
+                                        <rm:value>reference_nucleotide_sequence</rm:value>
+                                    </value>
+                                </Reference_nucleotide_sequence>
+                            </Simple_genetic_variant>
+                            <Transcript>
+                                <name>
+                                    <value>Transcript</value>
+                                </name>
+                                <Functional_impact>
+                                    <name>
+                                        <value>Functional impact</value>
+                                    </name>
+                                    <Impact>
+                                        <name>
+                                            <value>Impact</value>
+                                        </name>
+                                        <value>
+                                            <rm:value>impact</rm:value>
+                                        </value>
+                                    </Impact>
+                                </Functional_impact>
+                                <Gene>
+                                    <name>
+                                        <value>Gene</value>
+                                    </name>
+                                    <Gen_-_Name__openBrkt_HGNC_closeBrkt_>
+                                        <name>
+                                            <value>Gen-Name (HGNC)</value>
+                                        </name>
+                                        <value>
+                                            <rm:value>gen-name_hgnc</rm:value>
+                                        </value>
+                                    </Gen_-_Name__openBrkt_HGNC_closeBrkt_>
+                                </Gene>
+                            </Transcript>
+                        </Genomic_variant_result>
+                    </Sequencing_result>
+                </data>
+                <state/>
+            </Any_event_as_Point_Event>
+        </data>
+    </Laboratory_test_result>
+</Report_Genomic_Investigation_Molecular_Pathology>
