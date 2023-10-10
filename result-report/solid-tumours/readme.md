@@ -7,4 +7,4 @@ To open current ongoing information specification work you will need to connect 
 * Branch: GMS-tests-genomic
 * Repository: CKM-mirror
 * Owner: modellbibliotek
-(Note thaty you may have read-only access to that repository, so don't waste time on anaything that needs saving unless you have arranged for write access first)
+(Note that you may have read-only access to that repository, so don't waste time on anaything that needs saving unless you have arranged for write access first or copied to a repository of your own.)
